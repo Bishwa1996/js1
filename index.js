@@ -35,12 +35,70 @@ while (j < arr.length) {
     // console.log(arr[j]);
     j++;
 }
-for (var i = 0; i < arr.length; i++){
-    if(i==2){
+for (var i = 0; i < arr.length; i++) {
+    if (i == 2) {
         // break;
         continue;
     }
-    console.log(arr[i]);
+    // console.log(arr[i]);
 }
+let myArr = ["fan", "camera", 34, null, true];
+// console.log(myArr.length);
+// myArr.pop();
+// myArr.push("Bishwa");
+// myArr.shift()
+myArr.unshift("bishwa")
+// console.log(myArr);
+
+// String methods in js
+let mylovelystring = "Bishwa is a good boy";
+/*console.log(mylovelystring.length)
+console.log(mylovelystring.indexOf("good"))
+console.log(mylovelystring.slice(1,5))*/
+
+// let myDate= new Date;
+// console.log(myDate.getTime());
+
+// DOM Manipulation:-
+let elem = document.getElementById('click');
+// console.log(elem);
+
+let elemClass = document.getElementsByClassName("container")
+// console.log(elemClass);
+elemClass[0].style.background = "yellow";
+
+/*tn = document.getElementsByTagName('div')
+console.log(tn);*/
+
+// selecting using query
+sel = document.querySelector('.container')
+// console.log(sel)
+sel = document.querySelectorAll('.container')
+// console.log(sel)
+
+// Events in js
+/*function clicked(){
+console.log("The button was clicked");
+}
+firstContainer.addEventListener('click',function(){
+    console.log("click hua")
+})*/
+
+// Settimeout and setinterval =?
+// Local storage =?
+
+// Json
+/*obj = { name: "Bishwa", length: 1, a: { this: "that" } }
+jso = JSON.stringify(obj);
+console.log(jso)
+parsed = JSON.parse(`{"name":"Bishwa","length":1,"a":{"this":"that"}}`);
+console.log(parsed);*/
+/*a = 12;
+console.log(`this is my ${a}`);*/
+
+// js versions= ECMA script
+
+
+
 
 
